@@ -8,9 +8,9 @@ public class ifElse {
 
         if (requestedValue < balance) {
             balance -= requestedValue;
-            System.out.println("Actual Balance: " + balance);
+            System.out.println("Saldo Atual: " + balance);
         } else {
-            System.out.println("Insufficient Balance!");
+            System.out.println("Saldo Insuficiente!");
         }
     }
 }
