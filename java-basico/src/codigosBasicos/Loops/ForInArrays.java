@@ -1,4 +1,4 @@
-package codigosBasicos;
+package codigosBasicos.Loops;
 
 public class ForInArrays {
     public static void main(String[] args) {

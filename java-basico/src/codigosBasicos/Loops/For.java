@@ -1,4 +1,4 @@
-package codigosBasicos;
+package codigosBasicos.Loops;
 
 public class For {
     public static void main(String[] args) {

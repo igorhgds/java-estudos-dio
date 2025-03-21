@@ -1,4 +1,4 @@
-package codigosBasicos;
+package codigosBasicos.Exceções;
 
 import java.text.NumberFormat;
 import java.text.ParseException;

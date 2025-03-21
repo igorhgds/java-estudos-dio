@@ -1,4 +1,4 @@
-package codigosBasicos;
+package codigosBasicos.Loops;
 
 import java.util.concurrent.ThreadLocalRandom;
 

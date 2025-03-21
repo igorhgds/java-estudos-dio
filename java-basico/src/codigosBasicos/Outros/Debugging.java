@@ -1,4 +1,4 @@
-package codigosBasicos;
+package codigosBasicos.Outros;
 
 public class Debugging {
     public static void main(String[] args) {

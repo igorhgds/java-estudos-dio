@@ -1,4 +1,4 @@
-package codigosBasicos;
+package codigosBasicos.Exceções;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
