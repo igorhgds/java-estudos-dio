@@ -1,6 +1,6 @@
 package codigosBasicos;
 
-public class ifElse {
+public class IfElse {
 
     public static void main(String[] args) {
         double balance = 25.0;

@@ -1,6 +1,6 @@
 package codigosBasicos;
 
-public class elseIf {
+public class ElseIf {
     public static void main(String[] args) {
         int grade = 6;
 

@@ -1,6 +1,6 @@
 package codigosBasicos;
 
-public class ifElseTwo {
+public class IfElseTwo {
     public static void main(String[] args) {
         int yearOfRelease = 2022;
         boolean includedThePlan = false;
