@@ -18,5 +18,5 @@ Para rodar os projetos neste repositório, você pode realizar o git clone:
 
 **Clonar o repositório**:
    ```bash
-   git clone https://github.com/seuusuario/estudos-java-dio.git
+   git clone https://github.com/igorhgds/estudos-java-dio.git
 
