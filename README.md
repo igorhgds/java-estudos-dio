@@ -7,7 +7,7 @@ Este repositório contém todos os meus estudos e projetos realizados enquanto a
 O repositório está organizado da seguinte forma:
 
 - **/java-basico**: Exercícios relacionados aos conceitos básicos de Java, como variáveis, estruturas de controle e tipos de dados.
-- **/orientacao-objetos**: Exercícios e desafios que envolvem os princípios da Programação Orientada a Objetos (POO), como classes, objetos, herança, polimorfismo, etc.
+- **/java-poo**: Exercícios e desafios que envolvem os princípios da Programação Orientada a Objetos (POO), como classes, objetos, herança, polimorfismo, etc.
 - **/colecoes**: Exercícios e desafios sobre coleções em Java (listas, conjuntos, mapas, etc.).
 - **/spring-boot**: Projetos relacionados ao desenvolvimento de aplicações web com o framework Spring Boot.
 - **/outros**: Outros projetos e experimentos com Java que não se encaixam nas categorias anteriores.
