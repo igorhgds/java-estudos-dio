@@ -1,0 +1,224 @@
+From 5aad6b1db489ed96d9da531d3b62f8f3a92419eb Mon Sep 17 00:00:00 2001
+From: igorhgds <igorhenrique.gomes@hotmail.com>
+Date: Tue, 1 Apr 2025 10:06:06 -0300
+Subject: [PATCH 6/6] create readme desafios streamAPI
+
+---
+ java-collection/src/streamAPI/README.md |  63 +++++++++++++++
+ java-stream/.idea/misc.xml              |   6 --
+ java-stream/.idea/modules.xml           |   8 --
+ java-stream/.idea/workspace.xml         | 100 ------------------------
+ 4 files changed, 63 insertions(+), 114 deletions(-)
+ create mode 100644 java-collection/src/streamAPI/README.md
+ delete mode 100644 java-stream/.idea/misc.xml
+ delete mode 100644 java-stream/.idea/modules.xml
+ delete mode 100644 java-stream/.idea/workspace.xml
+
+diff --git a/java-collection/src/streamAPI/README.md b/java-collection/src/streamAPI/README.md
+new file mode 100644
+index 0000000..791a8e6
+--- /dev/null
++++ b/java-collection/src/streamAPI/README.md
+@@ -0,0 +1,63 @@
++Stream API Java - Principais Métodos
++Vamos praticar e aprofundar nossos conhecimentos na poderosa Stream API do Java!
++Abaixo, apresentamos uma lista de desafios envolvendo operações com streams para exercitar suas habilidades e criatividade.
++
++Para todos os desafios, utilizem a lista de números inteiros fornecida:
++
++List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
++Desafio 1 - Mostre a lista na ordem numérica:
++Crie um programa que utilize a Stream API para ordenar a lista de números em ordem crescente e a exiba no console.
++
++Desafio 2 - Imprima a soma dos números pares da lista:
++Utilizando a Stream API, realize a soma dos números pares da lista e exiba o resultado no console.
++
++Desafio 3 - Verifique se todos os números da lista são positivos:
++Com a ajuda da Stream API, verifique se todos os números da lista são positivos e exiba o resultado no console.
++
++Desafio 4 - Remova todos os valores ímpares:
++Utilize a Stream API para remover os valores ímpares da lista e imprima a lista resultante no console.
++
++Desafio 5 - Calcule a média dos números maiores que 5:
++Com a Stream API, calcule a média dos números maiores que 5 e exiba o resultado no console.
++
++Desafio 6 - Verificar se a lista contém algum número maior que 10:
++Utilize a Stream API para verificar se a lista contém algum número maior que 10 e exiba o resultado no console.
++
++Desafio 7 - Encontrar o segundo número maior da lista:
++Com a ajuda da Stream API, encontre o segundo número maior da lista e exiba o resultado no console.
++
++Desafio 8 - Somar os dígitos de todos os números da lista:
++Utilizando a Stream API, realize a soma dos dígitos de todos os números da lista e exiba o resultado no console.
++
++Desafio 9 - Verificar se todos os números da lista são distintos (não se repetem):
++Com a Stream API, verifique se todos os números da lista são distintos (não se repetem) e exiba o resultado no console.
++
++Desafio 10 - Agrupe os valores ímpares múltiplos de 3 ou de 5:
++Utilize a Stream API para agrupar os valores ímpares múltiplos de 3 ou de 5 e exiba o resultado no console.
++
++Desafio 11 - Encontre a soma dos quadrados de todos os números da lista:
++Utilizando a Stream API, encontre a soma dos quadrados de todos os números da lista e exiba o resultado no console.
++
++Desafio 12 - Encontre o produto de todos os números da lista:
++Com a ajuda da Stream API, encontre o produto de todos os números da lista e exiba o resultado no console.
++
++Desafio 13 - Filtrar os números que estão dentro de um intervalo:
++Utilize a Stream API para filtrar os números que estão dentro de um intervalo específico (por exemplo, entre 5 e 10) e exiba o resultado no console.
++
++Desafio 14 - Encontre o maior número primo da lista:
++Com a Stream API, encontre o maior número primo da lista e exiba o resultado no console.
++
++Desafio 15 - Verifique se a lista contém pelo menos um número negativo:
++Utilizando a Stream API, verifique se a lista contém pelo menos um número negativo e exiba o resultado no console.
++
++Desafio 16 - Agrupe os números em pares e ímpares:
++Utilize a Stream API para agrupar os números em duas listas separadas, uma contendo os números pares e outra contendo os números ímpares da lista original, e exiba os resultados no console.
++
++Desafio 17 - Filtrar os números primos da lista:
++Com a ajuda da Stream API, filtre os números primos da lista e exiba o resultado no console.
++
++Desafio 18 - Verifique se todos os números da lista são iguais:
++Utilizando a Stream API, verifique se todos os números da lista são iguais e exiba o resultado no console.
++
++Desafio 19 - Encontre a soma dos números divisíveis por 3 e 5:
++Com a Stream API, encontre a soma dos números da lista que são divisíveis tanto por 3 quanto por 5 e exiba o resultado no console.
+\ No newline at end of file
+diff --git a/java-stream/.idea/misc.xml b/java-stream/.idea/misc.xml
+deleted file mode 100644
+index 8ae7a95..0000000
+--- a/java-stream/.idea/misc.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/../java-collection/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/java-stream/.idea/modules.xml b/java-stream/.idea/modules.xml
+deleted file mode 100644
+index 797c84e..0000000
+--- a/java-stream/.idea/modules.xml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/../java-collection/java-stream.iml" filepath="$PROJECT_DIR$/../java-collection/java-stream.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/java-stream/.idea/workspace.xml b/java-stream/.idea/workspace.xml
+deleted file mode 100644
+index 1889090..0000000
+--- a/java-stream/.idea/workspace.xml
++++ /dev/null
+@@ -1,100 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="9a1ef526-c4f3-4679-8cef-292bd4403100" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/.gitignore" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/.idea/.gitignore" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/.idea/modules.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/.idea/vcs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/java-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/java-stream.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/desafios/Desafio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/src/streamAPI/Desafio1.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/desafios/Desafio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/src/streamAPI/Desafio2.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/desafios/Desafio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/src/streamAPI/Desafio3.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/desafios/Desafio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collection/src/streamAPI/Desafio4.java" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;igorhgds&quot;
+-  }
+-}</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/igorhgds/java-estudos-alura.git&quot;,
+-    &quot;accountId&quot;: &quot;03ffeb2b-78ae-406f-b843-e00f3a98b310&quot;
+-  }
+-}</component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 7
+-}</component>
+-  <component name="ProjectId" id="2v7qsEeiOT8ASvzMyP52LsOro4x" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Desafio1.executor": "Run",
+-    "Application.Desafio2.executor": "Run",
+-    "Application.Desafio3.executor": "Run",
+-    "Application.Desafio4.executor": "Run",
+-    "Application.Desafio5.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/sn1097270/Desktop/GitHub Igor",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+-    "vue.rearranger.settings.migration": "true"
+-  }
+-}]]></component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="9a1ef526-c4f3-4679-8cef-292bd4403100" name="Changes" comment="" />
+-      <created>1737461424867</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1737461424867</updated>
+-      <workItem from="1743506681832" duration="2433000" />
+-      <workItem from="1743509551154" duration="1371000" />
+-    </task>
+-    <servers />
+-  </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-</project>
+\ No newline at end of file
+-- 
+2.46.0.windows.1
+
