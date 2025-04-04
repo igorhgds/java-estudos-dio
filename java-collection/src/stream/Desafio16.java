@@ -21,6 +21,5 @@ public class Desafio16 {
 
         // Exibe os grupos no console
         grupos.forEach((chave, valores) -> System.out.println(chave + ": " + valores));
-
     }
 }
